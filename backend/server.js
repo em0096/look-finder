@@ -4,9 +4,9 @@ const cors = require("cors"); // Import CORS middleware
 // Initialize Express app
 const app = express();
 
-// Enable CORS for requests from the frontend
+// allow requests from the frontend
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'http://localhost:5173',
 })); 
 
 // Middleware to parse JSON bodies

@@ -21,7 +21,7 @@ const looks = [
   }
 ];
 
-// Function to get all looks
+
 function getAllLooks(){
     return looks;
 }
