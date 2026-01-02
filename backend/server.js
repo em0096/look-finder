@@ -11,6 +11,7 @@ app.use(cors({
 
 // Middleware to parse JSON bodies
 app.use(express.json());
+app.use("/looks", express.static("public/looks")); // Serve static images from the looks folder
 
 // Import routes
 const routes = require("./routes/looks");

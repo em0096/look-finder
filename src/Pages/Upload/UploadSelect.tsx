@@ -30,7 +30,7 @@ export default function UploadSelect(){
                 <button onClick={handleSelectPhoto} className="rounded-lg"> Select Photo </button>
             </div>
 
-            <Link className="border border-[#b08968] rounded-xl px-4 py-2 inline-block" to = "details"> Upload </Link>
+            <Link className="border border-[#b08968] rounded-xl px-4 py-2 inline-block text-black" to = "details"> Upload </Link>
              
         </div>
     );

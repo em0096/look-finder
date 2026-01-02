@@ -1,26 +1,31 @@
 // Sample data for looks
 const looks = [
   {
-    id: 1,
+    id: look1,
     title: "Soft Glam Look",
-    imageURL: "/images/example1.jpg",
-    userName: "evie",
+    imageURL: "http://localhost:4000/looks/Look1.jpg",
+    user: { 
+      id: user1, 
+      userName: "evie"
+    },
     products: [
-      { id: 1, name: "Radiant Creamy Concealer" },
-      { id: 2, name: "Charlotte Tilbury Flawless Filter" }
+      { id: product1, name: "Radiant Creamy Concealer" },
+      { id: product2, name: "Charlotte Tilbury Flawless Filter" }
     ]
   },
   {
-    id: 2,
+    id: look2,
     title: "Bronzy Glow",
-    imageURL: "/images/example2.jpg",
-    userName: "emma",
+    imageURL: "http://localhost:4000/looks/Look1.jpg",
+    user: { 
+      id: user2, 
+      userName: "emma" 
+    },
     products: [
-      { id: 3, name: "Rare Beauty Blush" }
+      { id: product3, name: "Rare Beauty Blush" }
     ]
   }
 ];
-
 
 function getAllLooks(){
     return looks;
